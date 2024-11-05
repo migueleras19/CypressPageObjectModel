@@ -28,12 +28,16 @@ describe('Ejercicio de Automatización E2E', () => {
 
             productsPage.addProductsBackpack();
             productsPage.addProductsOnesie();
+            cy.log('Producto añadido al carrito ${productName}');
+
             cartPage.shopingCart();
             cartPage.checkout();
+            cy.log('Se ha realizado la compra con exito ${productName}');
             checkoutPage.fillInformation(data.firstname, data.lastname, data.code);
             checkoutPage.continueCheckout();
             checkoutPage.finishCheckout();
             confitmationsPage.ConfirmationMessage();
+            cy.log("Se realizo la compra con exito");
 
         })
         cy.window().then((win) => win.close());

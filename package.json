@@ -7,6 +7,7 @@
     "test:open": "cypress open"
   },
   "devDependencies": {
+    "@faker-js/faker": "^9.2.0",
     "cypress": "^13.15.1",
     "cypress-xpath": "^2.0.1"
   }
