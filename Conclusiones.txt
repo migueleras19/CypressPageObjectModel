@@ -3,9 +3,9 @@ General
 El proyecto está alojado en un repositorio de GitLab para facilitar el mantenimiento:
 
 Repositorio: https://gitlab.com/migueleras19/test_e2e_and_api
-También se ha compartido un archivo .zip en Google Drive para su revisión:
 
-Enlace de descarga: https://drive.google.com/file/d/1dsSTjsLr2xsejTWwA0gsq-uCK8Ta36sN/view?usp=sharing
+
+
 Pruebas E2E en SauceDemo
 Flujo Completo Validado: Se validó correctamente el flujo de compra, incluyendo autenticación, agregar productos, visualización del carrito y finalización del pedido.
 Hallazgos: El flujo funcionó sin problemas. Se podría mejorar probando con diferentes tipos de usuarios y gestionando mejor posibles errores en la carga de productos o autenticación.
@@ -13,4 +13,3 @@ Pruebas de API en Demoblaze
 Esta es mi primera experiencia usando Cypress para pruebas de API, ya que anteriormente había trabajado con Postman. Fue una buena oportunidad para explorar nuevas capacidades de Cypress.
 Generación de Datos Aleatorios: Utilicé la librería Faker para generar datos únicos en el endpoint de registro, evitando colisiones de datos.
 Hallazgos en la API: La API respondió correctamente en los casos de registro y login, pero algunos mensajes de error podrían estandarizarse para mejorar la claridad.
-Sugerencia de Mejora: Cypress funciona bien para pruebas de API, pero para proyectos exclusivamente de API, herramientas como Postman o Karate pueden ser más intuitivas.

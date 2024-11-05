@@ -18,7 +18,7 @@ describe('Ejercicio de Automatización E2E', () => {
     const confitmationsPage = new ConfirmationsPage();
 
 
-    it('should complete purchase flow successfully', () => {
+    it('Flujo de compras', () => {
         cy.fixture("data").then((data) => {
             loginPage.visit();
             loginPage.inputUsername('standard_user');
