@@ -7,7 +7,7 @@ Este proyecto contiene pruebas End-to-End (E2E) y pruebas de API utilizando Cypr
 **Versión de Node:** v20.16.0  
 
 #### Descripción
-Esta es una PoC construida para un test técnico para aplicar a una oferta de trabajo de QA Assurance.
+Este proyecto fue desarrollado como parte de un test técnico para una posición de QA Assurance. Contiene pruebas automatizadas diseñadas para evaluar habilidades en pruebas E2E y API, cumpliendo con los requisitos establecidos en la oferta de trabajo.
 
 ## Comenzando
 - Clona el repositorio o descarga el .zip: `git clone https://gitlab.com/migueleras19/test_e2e_and_api.git`
